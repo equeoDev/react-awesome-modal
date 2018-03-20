@@ -18,6 +18,7 @@ export default {
         'width': '100%',
         'height': '100%',
         'display': 'flex',
+        'flex-direction': 'column',
         'justifyContent': 'center',
         'alignItems': 'center',
         'zIndex': 10000
