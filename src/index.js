@@ -28,10 +28,11 @@ export default class Modal extends Component {
                     ...this.props.styles
                 };
             }
-            if (this.props.backgroundColor) {
+            if (this.props.background) {
                 style[effect].mask = {
                     ...style[effect].mask,
-                    backgroundColor: this.props.backgroundColor
+                    background: this.props.background,
+                    backgroundSize: 'contain'
                 }
             }
         }
